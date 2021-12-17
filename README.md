@@ -106,5 +106,5 @@ SSH into the control node and follow the steps below:
 - Update the hosts file to include two host groups. One group will be under webservers which includes the Web-1, Web-2 & Web-3 private IPs and the other host group will be under elk and will have the ELK VM private IP. The two host groups allow you to specify which group of machines to run each playbook on.
    - Command: cd /etc/ansible
    - Command: nano hosts
-- Run the playbook, and navigate to [ELK VM Public IP]:5601/app/kibana to check that the installation worked as expected.
+- Run the playbook, and navigate to http://[ELK VM Public IP]:5601/app/kibana to check that the installation worked as expected.
    - Comman: ansible-playbook filebeat-playbook.yml
