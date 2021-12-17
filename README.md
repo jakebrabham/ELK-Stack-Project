@@ -107,4 +107,4 @@ SSH into the control node and follow the steps below:
    - Command: cd /etc/ansible
    - Command: nano hosts
 - Run the playbook, and navigate to http://[ELK VM Public IP]:5601/app/kibana to check that the installation worked as expected.
-   - Comman: ansible-playbook filebeat-playbook.yml
+   - Command: ansible-playbook filebeat-playbook.yml
